@@ -825,12 +825,8 @@ const generateRemark = (index, port) => {
     switch (index) {
         case 0:
         case 1:
-            remark = `💦Domain_${index + 1} : ${port}`;
-            break;
         case 2:
         case 3:
-            remark = `💦IPv4_${index - 1} : ${port}`;
-            break;
         case 4:
         case 5:
         default:
